@@ -18,7 +18,7 @@ export class PokeApiService {
       tap(res => {
         res.results.map( (resPokemons: any) => {
           this.apiGetPokemons(resPokemons.url).subscribe(
-            res => res
+            res => resPokemons.status = res
           )
         })
       })
