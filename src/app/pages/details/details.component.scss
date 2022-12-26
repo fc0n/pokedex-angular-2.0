@@ -70,6 +70,7 @@
 					font-size: rem-calc(32);
 					text-decoration: underline;
 					color: var(--secondary-color);
+                    text-decoration: none;
 				}
 
 				ol {
@@ -79,6 +80,7 @@
 
 						font-size: rem-calc(18);
 						line-height: 130%;
+                        font-weight: 700;
 					}
 				}
 			}
